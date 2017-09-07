@@ -7,7 +7,7 @@ import { Technology } from './technology.model';
     <div *ngIf="childSelectedechnology">
       <h1>Edit Technology</h1>
       <div>
-        <label>Enter Technology Nem:</label>
+        <label>Enter Technology Name:</label>
         <input [(ngModel)]="childSelectedTechnology.name">
       </div>
       <div>
@@ -15,7 +15,7 @@ import { Technology } from './technology.model';
         <input [(ngModel)]="childSelectedTechnology.description">
       </div>
       <div>
-        <label>Enter Technology calories:</label>
+        <label>Enter Technology number:</label>
         <input [(ngModel)]="childSelectedTechnology.IdNumber">
       </div>
       <button (click)="doneClicked()">Done</button>
