@@ -5,8 +5,8 @@ import { Technology } from './technology.model';
   selector: 'technology-display',
   template: `
   <div>
-    <p *ngIf="technology.calories < 500" ></p>
-    <p *ngIf="technology.calories > 500" ></p>
+    <p *ngIf="technology.IdNumber < 5" ></p>
+    <p *ngIf="technology.IdNumber > 5" ></p>
     <label>{{ technology.name }}</label>
   </div>
   `

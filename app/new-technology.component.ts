@@ -6,13 +6,13 @@ import { Technology } from './technology.model';
   template: `
     <h1>New Technology</h1>
     <div>
-      <label>Enter Technology Description:</label>
+      <label>Enter Technology Body:</label>
     </div>
     <div>
       <form class="add-new-technology">
   <label for="">Name:</label>
   <input class="form-control" type="text" name="name" value="" #newName>
-  <label for="">Description:</label>
+  <label for="">Body:</label>
   <input class="form-control" type="text" name="name" value="" #newDescription>
   <label for="">IdNumber:</label>
   <input  class="form-control" type="text" name="name" value="" #newIdNumber>

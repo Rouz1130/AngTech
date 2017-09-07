@@ -16,7 +16,7 @@ import { Technology } from './technology.model';
       </div>
       <div>
         <label>Enter Technology calories:</label>
-        <input [(ngModel)]="childSelectedTechnology.calories">
+        <input [(ngModel)]="childSelectedTechnology.IdNumber">
       </div>
       <button (click)="doneClicked()">Done</button>
     </div>
