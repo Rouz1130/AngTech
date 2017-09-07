@@ -6,7 +6,7 @@ import { TechnologyListComponent } from './technology-list.component';
 import { EditTechnologyComponent } from './edit-technology.component';
 import { NewTechnologyComponent } from './new-technology.component';
 import { CompletenessPipe } from './completeness.pipe';
-import { TechnologyComponent } from './technology.component';
+import { TechnologyComponent } from './technology.component'
 
 @NgModule({
   imports: [
