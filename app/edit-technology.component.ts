@@ -4,7 +4,7 @@ import { Technology } from './technology.model';
 @Component({
   selector: 'edit-technology',
   template: `
-    <div *ngIf="childSelectedechnology">
+    <div *ngIf="childSelectedTechnology">
       <h1>Edit Technology</h1>
       <div>
         <label>Enter Technology Name:</label>
